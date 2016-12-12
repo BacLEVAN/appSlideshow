@@ -117,3 +117,50 @@ dl.footnotes dd {
 .debugOutput {
 	display: none;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+	.slideShow, .slide {
+		max-width: 480px;
+
+	}
+
+	img {
+		width: 330px !important;
+
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+	.slideShow, .slide {
+		max-width: 360px;
+
+	}
+
+	img {
+		width: 330px !important;
+
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+	.slideShow, .slide {
+		max-width: 320px;
+
+	}
+
+	img {
+		width: 290px !important;
+
+	}
+}
+
